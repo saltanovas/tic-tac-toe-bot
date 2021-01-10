@@ -1,12 +1,10 @@
+import Task3Message ( message1, message2 )
 import System.Environment ( getArgs )   
 import System.Exit ( ExitCode(ExitFailure), exitSuccess, exitWith, exitFailure )
 import System.IO ( stdout, stderr, hPutStr ) 
 import Data.Char as C ( isDigit )
 import Data.List as L ( takeWhile, isPrefixOf, transpose )
 import Control.Monad ( (>=>) )
-
-message :: String
-message = "d4:lastd1:0d4:datad1:0i1e1:1i0e1:21:Oeee4:prevd4:lastd1:0d4:datad1:0i2e1:1i0e1:21:Xeee4:prevd4:lastd1:0d4:datad1:0i1e1:1i1e1:21:Oeee4:prevd4:prevd4:prevd4:prevd4:prevd4:lastd1:0d4:datad1:0i0e1:1i2e1:21:Xeeee4:lastd1:0d4:datad1:0i2e1:1i1e1:21:Oeeee4:lastd1:0d4:datad1:0i2e1:1i2e1:21:Xeeee4:lastd1:0d4:datad1:0i1e1:1i2e1:21:Oeeee4:lastd1:0d4:datad1:0i0e1:1i0e1:21:Xeeeeeee"
 
 size :: Int 
 size = 3
